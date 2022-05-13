@@ -1,0 +1,45 @@
+.card-container {
+    // TODO add flex box related code here
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: auto;
+    row-gap: 10px;
+    column-gap: 80px;
+    // TODO make sure there is space on the right/left and top so that cards are not
+    //touching sides of
+    // screen and navigation bar
+      padding-bottom: 50px;
+      padding-top: 30px;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    .card {
+    // TODO add a border around each card with a border-radius of at least 20px
+    border-radius: 20px;
+    border: 3px solid rgba(0,0,0,0.38);
+    min-width: 300px;
+    min-height: 250px;
+    padding-left: 80px;
+    padding-bottom: 1px;
+    flex-wrap: wrap;
+    //flex-grow: 1;
+    // the following code is to make sure that we can align the image in the center
+    justify-content: center;
+    // align-self needs to be within a container that has display: flex
+    align-self: auto;
+    //display: flex;
+    //flex-flow: column wrap;
+    cursor: pointer;
+    h3, p {
+
+        margin: auto;
+        align-self: center;
+        margin-bottom: 16px;
+}
+     img {
+           width: 200px;
+            align-self: center;
+            justify-content: center;
+        }
+}
